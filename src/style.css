@@ -1,0 +1,231 @@
+body {
+    background-image: url("img/bg.jpg");
+    color: #000305;
+    font-size: 87.5%;
+    font-family: Arial;
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: orange;
+}
+
+a:hover, a:active {
+    color: cadetblue;
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.logo img{
+    width: 30%;
+    height: 170px;
+    margin: 2% 0;
+    padding-right: 1%;
+    float: left;
+}
+.banner img{
+    width: 69%;
+    height: 170px;
+    margin: 2% 0;
+
+}
+.mainheader nav {
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainheader nav ul li {
+    float: left;
+    display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited {
+    background-color: orangered;
+    text-shadow: none;
+    height: 20px;
+}
+
+.mainheader nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainheader nav ul li a{}
+
+.maincontent {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content {
+    width: 100%;
+    float: left;
+}
+
+.topcontent {
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2px;
+}
+
+.bottomcontent {
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2px;
+}
+.post-info {
+    font-style: italic;
+    color: #999;
+    font-size: 80%;
+}
+
+.top-sidebar {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 21%;
+    float: left;
+    background-color: white;
+    margin: 2% 0 2% 3%;
+    padding: 2% 3%;
+}
+
+.middle-sidebar {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 21%;
+    float: left;
+    background-color: white;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 2% 3%;
+
+}
+
+.bottom-sidebar {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 21%;
+    float: left;
+    background-color: white;
+    margin-left: 3%;
+    padding: 2% 3%;
+    margin-bottom: 2%;
+}
+
+.mainfooter {
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.mainFooter p {
+    width: 92%;
+    margin: 2% auto;
+    color: cadetblue;
+}
+.mainFooter p a{
+    width: 92%;
+    margin: 2% auto;
+    color: darkblue;
+}
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+    .body {
+        width: 90%;
+        font-size: 95%;
+    }
+
+    .mainheader img {
+        width: 100%;
+        height: auto;
+        margin: 2% 0;
+    }
+
+    .mainheader img {
+        width: 30%;
+        height: auto;
+        margin: 2% 0;
+    }
+
+    .mainheader nav {
+        height: 160px;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0;
+    }
+
+    .mainheader nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainheader nav a:link, .mainheader nav a:visited {
+        padding: 10px 25px;
+        height: 10px;
+        display: block;
+    }
+    .content{
+        width: 100%;
+        float: left;
+    }
+    .post-info{
+        display: none;
+    }
+    .topcontent{
+        background-color: white;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 3% 5%;
+        margin-bottom: 4%;
+    }
+    .bottomcontent{
+        margin-top: 3%;
+    }
+    .top-sidebar, .middle-sidebar, .bottom-sidebar {
+        width: 94%;
+        margin: 2% 0 2% 0%;
+        padding: 2% 3%;
+    }
+}
